@@ -28,7 +28,9 @@ public class Main {
 
         ImmutableStudentList(List<Student> students) {
             studentList = new ArrayList<>();
-            studentList.addAll(students);
+            for(Student student : students) {
+                studentList.add(student);
+            }
         }
 
         public List<Student> getStudentList() {
