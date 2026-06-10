@@ -1,6 +1,5 @@
 package project;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +27,7 @@ public class Main {
 
         ImmutableStudentList(List<Student> students) {
             studentList = new ArrayList<>();
-            for(Student student : students) {
+            for (Student student : students) {
                 studentList.add(student);
             }
         }
