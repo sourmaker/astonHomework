@@ -12,8 +12,8 @@ public class Main {
         ImmutableStudentList immutableStudentList = new ImmutableStudentList(studentList);
         System.out.println("Students: " + immutableStudentList.students());
         studentList.add(new Student("Kate"));
-        System.out.println("try to modify original list: " + immutableStudentList.students());
-        System.out.println("try to modify original list: " + studentList);
+        System.out.println("try to modify original list:  " + immutableStudentList.students());
+        System.out.println("try to modify original list:  " + studentList);
 
     }
 

@@ -1,6 +1,5 @@
 package ru.aston.hometask;
 
-
 public class Student {
 
     private String name;
